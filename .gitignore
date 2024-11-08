@@ -8,7 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
+#dist We do want this so github can serve it!
 dist-ssr
 *.local
 
