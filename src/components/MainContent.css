@@ -1,0 +1,10 @@
+/* MainContent Styling */
+main {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffff0;
+    color: #484849;
+}

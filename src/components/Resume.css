@@ -1,0 +1,31 @@
+/* Resume.css */
+.resume-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw; /* Full viewport width */
+    min-height: calc(100vh - 100px); /* Adjust for header/footer */
+    padding: 2rem;
+    background-color: #fffff0;
+    box-sizing: border-box;
+}
+
+.resume {
+    background-color: #fffff0;
+    color: #484849;
+    padding: 2rem;
+    flex: 1; /* Allows to stretch within the container */
+    max-width: 90vw; /* Limits width without overly constraining */
+    text-align: center;
+}
+
+.resume h2 {
+    margin-bottom: 1.5rem;
+}
+
+.pdf-iframe {
+    width: 80%;
+    height: 110vh;
+    border: none;
+    margin-top: 1rem;
+}

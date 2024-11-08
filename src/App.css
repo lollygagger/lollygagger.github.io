@@ -1,42 +1,67 @@
+/* Set html and body to take up full height of viewport */
+html, body {
+  height: 100%;
+  margin: 0; /* Remove default margin */
+  font-family: Arial, sans-serif; /* Or your preferred font */
+}
+
+/* Body background and color */
+body {
+  background-color: #fffff0; /* Cream color */
+  color: #484849; /* Grey color */
+}
+
+/* Ensure that the whole page takes up the full height */
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Container for the page content */
+.container {
+  flex: 1; /* Ensures it takes up remaining space */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Update header and footer to take full width and use your colors */
+header, footer {
+  background-color: #484849;
+  color: #fffff0;
+  padding: 1rem;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+header {
+  margin-bottom: 20px; /* Space between header and main content */
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Nav links styling */
+nav {
+  text-align: center;
+  /*padding-top: 1rem;*/
+  padding: 0;
+  margin: 0;
+  background-color: #484849;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+nav a {
+  color: #fffff0;
+  text-decoration: none;
+  margin: 0 1rem;
 }
 
-.card {
-  padding: 2em;
+nav a:hover {
+  text-decoration: underline;
 }
 
-.read-the-docs {
-  color: #888;
+/* Ensure main content area takes up remaining space */
+main {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
