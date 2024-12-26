@@ -1,12 +1,12 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import './Resume.css';
+import '../Styles/components/Resume.css';
 
 function Resume() {
     return (
         <>
             <Helmet>
-                <title>My Resume - Max Burdett</title>
+                <title>Resume - Max Burdett</title>
                 <meta name="description" content="This is my professional resume showcasing my experience and skills." />
             </Helmet>
             <div className="resume-container">

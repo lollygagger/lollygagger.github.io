@@ -1,14 +1,14 @@
 /* Set html and body to take up full height of viewport */
 html, body {
   height: 100%;
-  margin: 0; /* Remove default margin */
-  font-family: Arial, sans-serif; /* Or your preferred font */
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
 /* Body background and color */
 body {
-  background-color: #fffff0; /* Cream color */
-  color: #484849; /* Grey color */
+  background-color: #FFFFEB;
+  color: #3B3D40;
 }
 
 /* Ensure that the whole page takes up the full height */
@@ -20,7 +20,7 @@ body {
 
 /* Container for the page content */
 .container {
-  flex: 1; /* Ensures it takes up remaining space */
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -28,8 +28,8 @@ body {
 
 /* Update header and footer to take full width and use your colors */
 header, footer {
-  background-color: #484849;
-  color: #fffff0;
+  background-color: #3B3D40;
+  color: #FFFFEB;
   padding: 1rem;
   text-align: center;
 }
@@ -41,14 +41,13 @@ header {
 /* Nav links styling */
 nav {
   text-align: center;
-  /*padding-top: 1rem;*/
   padding: 0;
   margin: 0;
-  background-color: #484849;
+  background-color: #3B3D40;
 }
 
 nav a {
-  color: #fffff0;
+  color: #FFFFEB;
   text-decoration: none;
   margin: 0 1rem;
 }

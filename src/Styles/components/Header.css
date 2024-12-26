@@ -1,0 +1,75 @@
+/* Header Styling */
+header {
+    background-color: #484849;
+    color: #FFFFEB;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 1rem;
+}
+
+a {
+    color: inherit;
+    padding: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Add a box around the <Link> when hovered */
+a:hover {
+    border: 2px solid #709699;
+    color: #709699;
+    padding: 5px 10px;
+    border-radius: 4px;
+    /*background-color: #484849;*/
+}
+
+main {
+    background-color: #FFFFEB;
+    min-height: 150vh;
+    padding: 50px;
+}
+
+/* Header initially takes up the full screen */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; /* Full screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.5s ease;
+    z-index: 10;
+}
+
+
+/* Smaller header once scrolled */
+.header.shrink {
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 4em;
+    transition: font-size 0.5s ease;
+}
+
+.header-content p {
+    font-size: 1.5em;
+    transition: font-size 0.5s ease, opacity 0.5s ease;
+}
+
+.header.shrink h1 {
+    font-size: 2em; /* Smaller font for the name */
+}
+
+.header.shrink p {
+    display: none; /* Hide welcome message when header is shrunk */
+}

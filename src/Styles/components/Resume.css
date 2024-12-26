@@ -3,19 +3,19 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    width: 100vw; /* Full viewport width */
-    min-height: calc(100vh - 100px); /* Adjust for header/footer */
+    width: 100vw;
+    min-height: calc(100vh - 100px);
     padding: 2rem;
-    background-color: #fffff0;
+    background-color: #FFFFEB;
     box-sizing: border-box;
 }
 
 .resume {
-    background-color: #fffff0;
+    background-color: #FFFFEB;
     color: #484849;
     padding: 2rem;
-    flex: 1; /* Allows to stretch within the container */
-    max-width: 90vw; /* Limits width without overly constraining */
+    flex: 1;
+    max-width: 90vw;
     text-align: center;
 }
 
