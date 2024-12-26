@@ -2,6 +2,12 @@ import React from 'react';
 import { Helmet } from 'react-helmet'; // Import Helmet
 import '../Styles/components/MainContent.css';
 
+// README:
+//
+// Plans for projects page - have projects stored in a map and have cards that they get displayed on
+// each project will have skills associated with it and there will be a search bar where you can search through the projects
+// by the skills used
+
 function MainContent() {
 
     return (
