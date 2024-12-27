@@ -24,7 +24,7 @@ function MainContent() {
                     <p>
                         My name is <strong>Max Burdett</strong>, and I am a software engineer who is
                         constantly eager to learn new things. I'm currently based in <strong>Rochester, NY</strong> and
-                        <strong>Fairfield, CT</strong>. I began programming when I was just 8 years old and I enjoy
+                        <strong> Fairfield, CT</strong>. I began programming when I was just 8 years old and I enjoy
                         writing software to automate many parts of my day to day life. I have worked with a large range
                         of technologies and I love getting the chance to learn something new!
                     </p>

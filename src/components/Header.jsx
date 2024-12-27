@@ -1,6 +1,7 @@
 import {useEffect, useState} from 'react';
 import '../Styles/components/Header.css';
 import {Link, useLocation, useNavigate} from "react-router-dom";
+import ScrollArrow from "./ScrollArrow.jsx";
 
 function Header() {
 
@@ -46,6 +47,8 @@ function Header() {
                     <Link to="/resume">Resume</Link> |
                     <Link to="/contact">Contact Me</Link>
                 </nav>
+
+               <ScrollArrow isScrolled={isScrolled}/>
             </div>
         </header>
     );
