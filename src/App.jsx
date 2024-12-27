@@ -5,7 +5,8 @@ import MainContent from './components/MainContent';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
 import './Styles/App.css';
-import ScrollToTop from "./ScrollToTop.js";  // Global styles
+import ScrollToTop from "./ScrollToTop.js";
+import Contact from "./components/Contact.jsx";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                     <Routes>
                         <Route path="/" element={<MainContent />} />
                         <Route path="/resume" element={<Resume />} />
+                        <Route path="/contact" element={<Contact />} />
                     </Routes>
                 </main>
                 <Footer />

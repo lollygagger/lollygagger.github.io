@@ -50,13 +50,13 @@ function MainContent() {
 
                 <section className="skills-section">
                     <h3>Programming Languages</h3>
-                    <p>I have worked with many programming languages over the last 12 years, most recently I have been
+                    <p>I have worked with many programming languages over the last 14 years, most recently I have been
                         learning Typescript, and C++ for work and various personal projects. I first started programming
                         in lua when I was just 8 years old making small video games and scripts. After that my cousin
                         taught me java and Object-Oriented Programming which started my life long love of programming
-                        and software architecture </p>
+                        and software architecture. </p>
                     <ul>
-                        <li><strong>Java</strong> - 10 Years of Experience</li>
+                        <li><strong>Java</strong> - 11 Years of Experience</li>
                         <li><strong>Python</strong> - 8 Years of Experience</li>
                         <li><strong>Javascript</strong> - 5 Years of Experience</li>
                         <li><strong>Typescript</strong> - 3 Years of Experience</li>
@@ -65,14 +65,19 @@ function MainContent() {
                     </ul>
                 </section>
 
-                {/*<section className="goals-section">*/}
-                {/*    <h3>Goals</h3>*/}
-                {/*    <p>*/}
-                {/*        My current goals are to <strong>[Goal 1]</strong>, <strong>[Goal 2]</strong>, and*/}
-                {/*        eventually <strong>[Long-Term Goal]</strong>. I strive to constantly improve myself both*/}
-                {/*        professionally and personally.*/}
-                {/*    </p>*/}
-                {/*</section>*/}
+                <section className="goals-section">
+                    <h3>Goals</h3>
+                    <p>
+                       <li><strong>AWS Cloud Practitioner</strong> - I am currently studying to become an AWS Cloud
+                           Practitioner and I am currently 90% complete with my studying. I hope to reach this goal
+                           within the first quarter of 2025.</li>
+                        <li><strong>Certified PMP</strong> - I have always greatly enjoyed project management and it is
+                            a large future career goal of mine. While I do not expect to attain this certification very
+                            soon it is a long term goal which I would like to reach. As of right now I have completed
+                            the required education hours and I have completed 40% of the required hours as a project
+                            manager.</li>
+                    </p>
+                </section>
 
                 <section className="contact-section">
                     <h3>Contact</h3>
