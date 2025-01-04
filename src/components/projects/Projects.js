@@ -36,7 +36,10 @@ const projects = {
 
     "food-in-sight": {
         name: "Food In-Sight",
-        description: "An AWS powered application used for analyzing foods and warning users about possible issues with their dietary restrictions",
+        description: "An AWS powered application used for analyzing foods and warning users about possible issues with " +
+            "their dietary restrictions. Food In Sight allows users to either scan food labels to look for any conflicts " +
+            "with their dietary restrictions or just take a picture of their food and use our custom trained Rekognition " +
+            "model to determine the ingredients present. ",
         repoLink: "https://github.com/lollygagger/Food-In-Sight",
         startDate: "August 2024",
         endDate: "December 2024",
@@ -62,7 +65,7 @@ const projects = {
 
     "expense-tracker": {
         name: "Expense Tracker",
-        description: "An application I made for testing deployment with AWS Amplify. This is a basic application for tracking expenses and displaying the data neatly",
+        description: "An application I made for testing deployment with AWS Amplify. This is a basic application for tracking expenses and displaying the data neatly.",
         repoLink: "https://github.com/lollygagger/ExpenseTracker",
         startDate: "September 2024",
         endDate: "October 2024",
@@ -117,7 +120,7 @@ const projects = {
     "rate-my-classmate": {
         name: "Rate My Classmate",
         description: "With all the group projects that students are expected to do, there shouldn't have to be any guessing about the " +
-            "quality of your groupmates. Rate My Classmate provides a service for rating your classmates just like Ratemyprofessor.com" +
+            "quality of your groupmates. Rate My Classmate provides a service for rating your classmates just like Ratemyprofessor.com " +
             "to make sure that you don't get stuck doing a group project by yourself. This project was a class project. " +
             "During this project I acted as Project Manager leading scrum meetings and making sure that we followed agile practices. " +
             "While I was the project manager I also was programming and I lead the development of the backend API",
@@ -137,13 +140,23 @@ const projects = {
 
     "hot-foods": {
         name: "Hot Foods",
-        description: "",
+        description: "Many students struggle with what to eat at RIT, to help this we made Hot Foods. Hot foods gets the " +
+            "latest options from RIT dining every morning using the Net Nutrition Scraper project and presents them to " +
+            "users as options for what to eat. Food options are provided in a swiping style interface with nutrition and " +
+            "allergen information present for each item. User's previous swiping choices are remembered and using a basic " +
+            "regression algorithm Hot Foods is able to remember what people like to provide personalized suggestions.",
         repoLink: "https://github.com/RubbaBoy/hot_foods",
         liveLink: "https://devpost.com/software/hot-foods",
         startDate: "February 2023",
-        endDate: "February 2023",
         skills: [
-            ""
+            "Java",
+            "Spring Boot",
+            "Full Stack Development",
+            "Web and Mobile Applications",
+            "API Development",
+            "PostgreSQL",
+            "Machine Learning",
+            "Big Data"
         ]
     },
 
@@ -153,48 +166,80 @@ const projects = {
             "database every day to populate the database needed for Hot Foods.",
         repoLink: "https://github.com/lollygagger/NetNutritionScraper",
         startDate: "February 2023",
-        endDate: "February 2023",
         skills: [
             "Java",
             "Gradle",
             "Selenium",
-            "Web Scraping"
+            "Web Scraping",
+            "Big Data"
         ]
     },
 
     "music-maps": {
         name: "Music Maps",
-        description: "",
+        description: "Music Maps allows you to visualize music listening data. Connect with your friends and see their " +
+            "listening activity on the map or just look at the local, regional, state, country, and global listening trends. " +
+            "Music Maps combines location and listening data to help you see what people are listening to anywhere in the world. " +
+            "Music Maps connects with both spotify and apple music to allow for all listeners to join the map regardless of their " +
+            "preferred streaming service.",
         repoLink: "https://github.com/RubbaBoy/MusicMap",
         liveLink: "https://devpost.com/software/music-map-oc2gwx",
         startDate: "November 2022",
-        endDate: "November 2022",
         skills: [
-            ""
+            "Python",
+            "Flask",
+            "API Development",
+            "Web and Mobile Applications",
+            "Geolocation data",
+            "Data Visualization",
+            "Big Data",
+            "Full Stack Development",
+            "PostgreSQL"
         ]
     },
 
     "circle-work": {
         name: "Circle Work",
-        description: "",
+        description: "Do you struggle with motivation? Try Circle Work, an intuitive community platform for getting stuff " +
+            "done. Circle work allows you to join a 'circle' of friends who all commit to completing their tasks. At the " +
+            "start of every month, you put in $1 as a financial incentive to complete your work. If you finish all your tasks " +
+            "you get your dollar back but if you don't then the dollar is added to a pool to donate to charity. Circle Work " +
+            "combines intrinsic and extrinsic motivation to push users to complete everything they need to and to maintain " +
+            "health and productive habits. If you and your circle have the highest task completion percentage of the month " +
+            "then you get to pick one of our pre-approved charities to send the money to!",
         repoLink: "https://github.com/RubbaBoy/CircleWork",
         liveLink: "https://devpost.com/software/circle-work",
         startDate: "March 2022",
-        endDate: "March 2022",
         skills: [
-            ""
+            "Java",
+            "Spring Boot",
+            "Full Stack Development",
+            "Web and Mobile Applications",
+            "API Development",
+            "PostgreSQL"
+
         ]
     },
 
     "streaming-with-strangers": {
         name: "Streaming With Strangers",
-        description: "",
+        description: "How much time do you spend watching TV alone? Have you ever wanted to watch with more people at the " +
+            "same time? Streaming with strangers is a new streaming app that allows strangers to watch movies and shows together " +
+            "with a shared playback and a live chat to talk about what you're watching. ",
         repoLink: "https://github.com/RubbaBoy/streaming_with_strangers",
         liveLink: "https://devpost.com/software/streaming-with-strangers",
         startDate: "February 2022",
-        endDate: "February 2022",
         skills: [
-            ""
+            "ReactJS",
+            "Javascript",
+            "GUI Design(UI/UX)",
+            "Python",
+            "Flask",
+            "SQL",
+            "psycopg2",
+            "PostgreSQL",
+            "Video Streaming",
+            "Real Time Messaging"
         ]
     },
 
@@ -212,13 +257,15 @@ const projects = {
             "Python",
             "Flask",
             "SQL",
-            "psycopg2"
+            "psycopg2",
+            "PostgreSQL",
         ]
     },
 
     "venmo-data-parsing": {
         name: "Venmo Data Parsing",
-        description: "basic application to parse out venmo data from generated CSV",
+        description: "basic application to parse out venmo data from generated CSV. This project allows users to visualize " +
+            "where most of their money is being sent to and where most of their money is coming from.",
         repoLink: "https://github.com/lollygagger/venmo-data-parsing",
         startDate: "August 2021",
         endDate: "December 2021",

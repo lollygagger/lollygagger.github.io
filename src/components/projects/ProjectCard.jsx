@@ -10,7 +10,7 @@ const ProjectCard = (project) => {
         <div className="project-card">
             <div className="project-card-header">
                 <h3>{project.name}</h3>
-                <span className="project-dates">{project.startDate} - {project.endDate}</span>
+                <span className="project-dates">{project.startDate} {(project.endDate ? (" - " + project.endDate): null)}</span>
             </div>
 
             <p>{project.description}</p>
