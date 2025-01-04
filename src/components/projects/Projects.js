@@ -92,7 +92,6 @@ const projects = {
         repoLink: "https://github.com/RubbaBoy/DBMDBMS",
         liveLink: "https://devpost.com/software/dbmdbms",
         startDate: "February 2024",
-        endDate: "February 2024",
         skills: [
             "Database management",
             "VM Orchestration",
@@ -109,7 +108,6 @@ const projects = {
             "rate the joke on a scale of 1-10 and play recordings of live studio audiences depending on the rating.",
         repoLink: "https://github.com/RubbaBoy/open-source-audience",
         startDate: "September 2023",
-        endDate: "September 2023",
         skills: [
             "ChatGPT API",
             "OpenAI Speech-to-text",
