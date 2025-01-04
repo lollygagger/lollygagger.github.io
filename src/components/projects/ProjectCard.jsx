@@ -17,14 +17,14 @@ const ProjectCard = (project) => {
 
 
             {(project.repoLink ? (
-                <a href={project.repoLink} className="repo-container">
+                <a href={project.repoLink} className="repo-container" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faGithub} className="github-icon"/>
                 </a>
             ): null)}
 
 
             {(project.liveLink ? (
-                <a href={project.liveLink}>
+                <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faExternalLinkAlt} className="external-link"/>
                 </a>
             ) : null)}
