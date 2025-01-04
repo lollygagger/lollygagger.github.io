@@ -2,12 +2,6 @@ import React from 'react';
 import { Helmet } from 'react-helmet'; // Import Helmet
 import '../Styles/components/HomePage.css';
 
-// README:
-//
-// Plans for projects page - have projects stored in a map and have cards that they get displayed on
-// each project will have skills associated with it and there will be a search bar where you can search through the projects
-// by the skills used
-
 function HomePage() {
 
     return (
@@ -23,7 +17,7 @@ function HomePage() {
                     <h2>About Me</h2>
                     <p>
                         My name is <strong>Max Burdett</strong>, and I am a software engineer who is
-                        constantly eager to learn new things. I'm currently based in <strong>Rochester, NY</strong> and
+                        eager to learn new things. I'm currently based in <strong>Rochester, NY</strong> and
                         <strong> Fairfield, CT</strong>. I began programming when I was just 8 years old and I enjoy
                         writing software to automate many parts of my day to day life. I have worked with a large range
                         of technologies and I love getting the chance to learn something new!
@@ -43,8 +37,9 @@ function HomePage() {
                     <h3>Hobbies & Interests</h3>
                     <p>
                         Outside of my studies, I love to spend my time cooking, playing guitar, and traveling. These
-                        activities help me unwind and allow me to explore my creativity. When I can find the time I
-                        also enjoy working on my own personal projects which I find very fulfilling.
+                        activities help me unwind and spend some time away from the computer. I also love participating
+                        in hackathons, so far I have participated in nearly 10 hackathons winning some type of award in
+                        a majority of them. When I can find the time I also enjoy working on my own personal projects.
                     </p>
                 </section>
 
@@ -81,11 +76,10 @@ function HomePage() {
 
                 <section className="contact-section">
                     <h3>Contact</h3>
-                    <p>
-                        If you would like to get in touch, feel free to reach out to me via email at
-                        <a href="mailto:maxkburdett@gmail.com"> maxkburdett@gmail.com</a>
-                        or add me on LinkedIn:<a href="https://www.linkedin.com/in/max-burdett">linkedin.com/in/max-burdett</a>
-                    </p>
+                    <span>
+                        If you would like to get in touch feel free to reach out to me via email at <a href="mailto:maxkburdett@gmail.com">maxkburdett@gmail.com</a>,
+                        or add me on LinkedIn: <a href="https://www.linkedin.com/in/max-burdett">linkedin.com/in/max-burdett</a>
+                    </span>
                 </section>
             </div>
         </>
