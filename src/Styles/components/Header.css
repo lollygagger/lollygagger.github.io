@@ -10,14 +10,14 @@ header h1 {
     margin: 1rem;
 }
 
-a {
+.header a {
     color: inherit;
     padding: 5px;
     transition: all 0.3s ease;
 }
 
 /* Add a box around the <Link> when hovered */
-a:hover {
+.header a:hover {
     border: 2px solid #709699;
     color: #709699;
     padding: 5px 10px;
@@ -25,7 +25,7 @@ a:hover {
     /*background-color: #484849;*/
 }
 
-main {
+.header main {
     background-color: #FFFFEB;
     min-height: 150vh;
     padding: 50px;
@@ -72,5 +72,21 @@ main {
 
 .header.shrink p {
     display: none; /* Hide welcome message when header is shrunk */
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 0;
+        /*font-size: 0.6em*/
+    }
+    .header a {
+        padding: 0;
+        font-size: 0.7em;
+    }
+    .header a:hover {
+        padding: 5px;
+    }
+
+
 }
 

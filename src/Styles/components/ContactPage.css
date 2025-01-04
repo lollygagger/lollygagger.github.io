@@ -13,7 +13,7 @@
 }
 
 .contact-item {
-    background-color: #c3dadc;
+    background-color: #aec19b;
     border-radius: 8px;
     padding: 1.5rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -27,6 +27,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: transform 0.3s ease;
 }
 
 .contact-item:hover {
@@ -39,7 +40,7 @@
 }
 
 .contact-item a:hover {
-    color: #0073b1; /* LinkedIn color example */
+    color: #3e4339; /* LinkedIn color example */
 }
 
 .contact-item a:active {

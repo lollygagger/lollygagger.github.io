@@ -1,16 +1,18 @@
 .scroll-arrow {
     position: absolute;
-    bottom: 30px; /* Adjust this distance based on your design */
+    bottom: 60px; /* Adjust this distance based on your design */
     left: 50%;
-    transform: translateX(-50%);
+    transform: scaleY(0.4) scale(4);
+    /*transform: scaleY(0.5);*/
     cursor: pointer;
+    rotate: 180deg;
     animation: bounce 1.5s infinite;
 }
 
-.scroll-arrow svg {
-    width: 40px;
-    height: 40px;
-}
+/*.scroll-arrow svg {*/
+/*    width: 40px;*/
+/*    height: 40px;*/
+/*}*/
 
 /*@keyframes bounce {*/
 /*    0%, 100% {*/

@@ -1,12 +1,13 @@
 import React from 'react';
 import { HashRouter as Router, Route, Routes} from 'react-router-dom';
 import Header from './components/Header';
-import MainContent from './components/MainContent';
+import HomePage from './components/HomePage.jsx';
 import Footer from './components/Footer';
-import Resume from './components/Resume';
+import ResumePage from './components/ResumePage.jsx';
 import './Styles/App.css';
 import ScrollToTop from "./ScrollToTop.js";
-import Contact from "./components/Contact.jsx";
+import Contact from "./components/ContactPage.jsx";
+import ProjectsPage from "./components/projects/ProjectsPage.jsx";
 
 function App() {
     return (
@@ -16,8 +17,9 @@ function App() {
                 <ScrollToTop />
                 <main>
                     <Routes>
-                        <Route path="/" element={<MainContent />} />
-                        <Route path="/resume" element={<Resume />} />
+                        <Route path="/" element={<HomePage />} />
+                        <Route path="/projects" element={<ProjectsPage />} />
+                        <Route path="/resume" element={<ResumePage />} />
                         <Route path="/contact" element={<Contact />} />
                     </Routes>
                 </main>

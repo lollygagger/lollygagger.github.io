@@ -1,0 +1,7 @@
+.projects-page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}

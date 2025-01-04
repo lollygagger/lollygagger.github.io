@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet'; // Import Helmet
-import '../Styles/components/MainContent.css';
+import '../Styles/components/HomePage.css';
 
 // README:
 //
@@ -8,7 +8,7 @@ import '../Styles/components/MainContent.css';
 // each project will have skills associated with it and there will be a search bar where you can search through the projects
 // by the skills used
 
-function MainContent() {
+function HomePage() {
 
     return (
         <>
@@ -53,7 +53,7 @@ function MainContent() {
                     <p>I have worked with many programming languages over the last 14 years, most recently I have been
                         learning Typescript, and C++ for work and various personal projects. I first started programming
                         in lua when I was just 8 years old making small video games and scripts. After that my cousin
-                        taught me java and Object-Oriented Programming which started my life long love of programming
+                        taught me Java and Object-Oriented Programming which started my life long love of programming
                         and software architecture. </p>
                     <ul>
                         <li><strong>Java</strong> - 11 Years of Experience</li>
@@ -83,7 +83,7 @@ function MainContent() {
                     <h3>Contact</h3>
                     <p>
                         If you would like to get in touch, feel free to reach out to me via email at
-                        <a href="mailto:maxkburdett@gmail.com">maxkburdett@gmail.com</a>
+                        <a href="mailto:maxkburdett@gmail.com"> maxkburdett@gmail.com</a>
                         or add me on LinkedIn:<a href="https://www.linkedin.com/in/max-burdett">linkedin.com/in/max-burdett</a>
                     </p>
                 </section>
@@ -92,4 +92,4 @@ function MainContent() {
     );
 }
 
-export default MainContent;
+export default HomePage;

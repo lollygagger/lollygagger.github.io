@@ -1,8 +1,8 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import '../Styles/components/Resume.css';
+import '../Styles/components/ResumePage.css';
 
-function Resume() {
+function ResumePage() {
     return (
         <>
             <Helmet>
@@ -13,7 +13,7 @@ function Resume() {
                 <div className="resume">
                     <h2>My Resume</h2>
                     <iframe
-                        src="/assets/MaxBurdettResume.pdf"
+                        src="/assets/MaxBurdett-Resume.pdf"
                         title="My Resume"
                         className="pdf-iframe"
                     />
@@ -23,4 +23,4 @@ function Resume() {
     );
 }
 
-export default Resume;
+export default ResumePage;
