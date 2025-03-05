@@ -15,6 +15,35 @@ const projects = {
         ]
     },
 
+    "MISHA": {
+        name: "Multispectral Imaging System for Historical Artifacts(MISHA)",
+        description: "MISHA is RIT's budget multispectral imaging platform. I have been developing new features such as adding support for true color capture and a transmissive light.",
+        startDate: "January 2025",
+        endDate: "Present",
+        skills: [
+            "Python",
+            "Imaging systems",
+            "Image Processing",
+            "PyQt"
+        ]
+    },
+
+    "qpm": {
+        name: "Qilletni Package Manager",
+        description: "A package manager and registry for the Qilletni programming language. No public links yet as the language and its related projects are remaining private until they are fully completed.",
+        repoLink: "https://github.com/palimpsest-pursuers",
+        startDate: "May 2024",
+        endDate: "Present",
+        skills: [
+            "Java",
+            "Cloudflare R2 Buckets",
+            "Package Management",
+            "Versioning",
+            "Registry Management",
+            "Lockfile Generation & Maintenance"
+        ]
+    },
+
     "educe": {
         name: "Educe.club",
         description: "Educe is an application for idea management. It allows users to store ideas in cards which are grouped into rows and columns to allow ideas to connect to other ideas. Educe is my senior project and I have been working on this with a team of 4 other developers gathering requirements from our sponsors and following strict software processes to quickly develop the application.",
