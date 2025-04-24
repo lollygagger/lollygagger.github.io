@@ -18,6 +18,7 @@ const projects = {
     "MISHA": {
         name: "Multispectral Imaging System for Historical Artifacts(MISHA)",
         description: "MISHA is RIT's budget multispectral imaging platform. I have been developing new features such as adding support for true color capture and a transmissive light.",
+        repoLink: "https://github.com/palimpsest-pursuers",
         startDate: "January 2025",
         endDate: "Present",
         skills: [
@@ -30,9 +31,9 @@ const projects = {
 
     "qpm": {
         name: "Qilletni Package Manager",
-        description: "A package manager and registry for the Qilletni programming language. No public links yet as the language and its related projects are remaining private until they are fully completed.",
-        repoLink: "https://github.com/palimpsest-pursuers",
-        startDate: "May 2024",
+        description: "A package manager and registry for the Qilletni programming language.",
+        repoLink: "https://github.com/lollygagger/QilletniPackageManager",
+        startDate: "February 2024",
         endDate: "Present",
         skills: [
             "Java",
@@ -41,6 +42,23 @@ const projects = {
             "Versioning",
             "Registry Management",
             "Lockfile Generation & Maintenance"
+        ]
+    },
+
+    "qpm-metadata-signer-api": {
+        name: "QPM metadata/signer API",
+        description: "A RESTful service for securely generating pre-signed urls and managing a metadata database for " +
+            "tracking download data, existing packages with their metadata, and sub-dependency relationships between packages",
+        repoLink: "https://github.com/lollygagger/QilletniPackageManager-Signer-API",
+        startDate: "February 2025",
+        endDate: "Present",
+        skills: [
+            "Python",
+            "Flask",
+            "Docker containerization",
+            "REST APIs",
+            "PostgreSQL",
+            "Cloudflare R2"
         ]
     },
 
@@ -62,6 +80,23 @@ const projects = {
             "GraphQL"
         ]
     },
+
+    "BeatDocs": {
+        name: "BeatDocs",
+        description: "BeatDocs is a browser extension for turning google docs into a fully functional step sequencer." +
+            "It supports creating custom synths, custom effects, and external sampling to allow for extensive customization" +
+            "and limitless creativity. With 5 pre-made synths and 10 pre-made effects its easy to get started making music!",
+        repoLink: "https://github.com/lollygagger/BeatDocs",
+        liveLink: "https://devpost.com/software/beatdocs",
+        startDate: "February 2025",
+        skills: [
+            "TypeScript",
+            "Browser Extension Development",
+            "tone.js",
+            "Google Docs API"
+        ]
+    },
+
 
     "food-in-sight": {
         name: "Food In-Sight",

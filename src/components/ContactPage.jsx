@@ -23,7 +23,7 @@ const ContactPage = () => {
                 </div>
 
                 <div className="contact-item">
-                    <a href="https://www.linkedin.com/in/maxburdett" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/max-burdett" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} size="2x" />
                         <span>LinkedIn</span>
                         <span>/in/max-burdett</span>
