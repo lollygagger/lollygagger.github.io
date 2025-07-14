@@ -27,8 +27,8 @@ function HomePage() {
                 <section className="education-section">
                     <h3>Education</h3>
                     <p>
-                        I am currently studying at <strong>The Rochester Institute of Technology</strong> pursuing a
-                        degree in Software Engineering. Some of my favorite subjects have been Software Processes and
+                        I obtained a degree in <strong>Software Engineering</strong> from the <strong>The Rochester
+                        Institute of Technology</strong>. Some of my favorite subjects were Software Processes and
                         Project Management, Cloud Computing, and Software Architecture.
                     </p>
                 </section>
@@ -60,24 +60,39 @@ function HomePage() {
                     </ul>
                 </section>
 
+                <section className="certificates-section">
+                    <h3>Certificates</h3>
+                    <li><strong>AWS Cloud Practitioner</strong> - I am an AWS certified cloud practitioner. This
+                        certificate expires in May 2028.
+                    </li>
+                </section>
+
                 <section className="goals-section">
                     <h3>Goals</h3>
                     <p>
-                       <li><strong>AWS Cloud Practitioner</strong> - I am currently studying to become an AWS Cloud
-                           Practitioner and I am currently 90% complete with my studying. I hope to reach this goal
-                           within the first quarter of 2025.</li>
+                        <li><strong>AWS AI Practitioner</strong> - As I continue to dive into the world of AI I am
+                            studying for my AWS AI Practitioner certificate. I am currently ~15% of the way through
+                            this course.
+                        </li>
+                        <li><strong>AWS Solutions Architect</strong> - After I got my AWS Cloud Practitioner certificate
+                            I have been looking for ways to continue my education about the AWS cloud and the next step
+                            is to obtain my AWS Solution Architect Certificate. I have yet to start this course yet but
+                            I hope to complete this before the end of 2026.
+                        </li>
                         <li><strong>Certified PMP</strong> - I have always greatly enjoyed project management and it is
                             a large future career goal of mine. While I do not expect to attain this certification very
                             soon it is a long term goal which I would like to reach. As of right now I have completed
                             the required education hours and I have completed 40% of the required hours as a project
-                            manager.</li>
+                            manager.
+                        </li>
                     </p>
                 </section>
 
                 <section className="contact-section">
                     <h3>Contact</h3>
                     <span>
-                        If you would like to get in touch feel free to reach out to me via email at <a href="mailto:maxkburdett@gmail.com">maxkburdett@gmail.com</a>,
+                        If you would like to get in touch feel free to reach out to me via email at <a
+                        href="mailto:maxkburdett@gmail.com">maxkburdett@gmail.com</a>,
                         or add me on LinkedIn: <a href="https://www.linkedin.com/in/max-burdett">linkedin.com/in/max-burdett</a>
                     </span>
                 </section>

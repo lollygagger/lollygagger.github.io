@@ -15,12 +15,30 @@ const projects = {
         ]
     },
 
+    "interview-prep-RAG-pipeline": {
+        name: "Interview Prep RAG Pipeline",
+        description: "An interview preparation Retrieval-Augmented Generation (RAG) pipeline that ingests interview prep" +
+            " documents, indexes them with embeddings, and enables precise, context-aware question answering on the prep" +
+            " material via a locally hosted LLM such as Llama3.",
+        repoLink: "https://github.com/lollygagger/Interview-Prep-RAG/",
+        startDate: "July 2025",
+        skills: [
+            "Python",
+            "Ollama",
+            "Langchain",
+            "FAISS",
+            "HuggingFace",
+            "RAG Pipeline",
+            "AI"
+        ]
+    },
+
     "MISHA": {
         name: "Multispectral Imaging System for Historical Artifacts(MISHA)",
         description: "MISHA is RIT's budget multispectral imaging platform. I have been developing new features such as adding support for true color capture and a transmissive light.",
         repoLink: "https://github.com/palimpsest-pursuers",
         startDate: "January 2025",
-        endDate: "Present",
+        endDate: "July 2025",
         skills: [
             "Python",
             "Imaging systems",
@@ -67,7 +85,7 @@ const projects = {
         description: "Educe is an application for idea management. It allows users to store ideas in cards which are grouped into rows and columns to allow ideas to connect to other ideas. Educe is my senior project and I have been working on this with a team of 4 other developers gathering requirements from our sponsors and following strict software processes to quickly develop the application.",
         liveLink:"https://educe.club",
         startDate: "August 2024",
-        endDate: "Present",
+        endDate: "July 2025",
         skills: [
             "Leadership",
             "Project Management",
